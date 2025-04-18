@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-black">
+    <header class="bg-white text-black p-8 flex flex-col items-center justify-center shadow-lg ">
+        <div class="text-center">
+            <h1 class="text-6xl font-extrabold">Raj</h1>
+        </div>
+    </header>
+
+    <section class="max-w-5xl mx-auto my-10 p-8 bg-white shadow-lg rounded-lg">
+        <h2 class="text-4xl font-semibold">Welcome</h2>
+        <p class="mt-4 text-lg">I'm an IT professional in web development. I love creating websites and applications.</p>
+    </section>
+
+    <section class="max-w-5xl mx-auto my-10 p-8 bg-white shadow-lg rounded-lg" id="projects">
+        <h2 class="text-4xl font-semibold">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-2xl font-bold">Portfolio Website</h3>
+                <p class="mt-2">A personal portfolio showcasing my projects and skills.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-2xl font-bold">Cybersecurity Blog</h3>
+                <p class="mt-2">A blog about best practices and cybersecurity tips.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-2xl font-bold">E-commerce Store</h3>
+                <p class="mt-2">An online store built with modern web technologies.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-2xl font-bold">Network Security Tool</h3>
+                <p class="mt-2">A tool for scanning and securing networks.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-5xl mx-auto my-10 p-8 bg-white shadow-lg rounded-lg" id="contact">
+        <h2 class="text-4xl font-semibold">Contact</h2>
+        <p class="mt-4 text-lg">Let's connect and collaborate!</p>
+        <form class="mt-6">
+            <label class="block text-lg">Name</label>
+            <input type="text" class="w-full p-2 mt-2 rounded-lg bg-white text-black border border-black"
+                placeholder="Your Name">
+
+            <label class="block text-lg mt-4">Email</label>
+            <input type="email" class="w-full p-2 mt-2 rounded-lg bg-white text-black border border-black"
+                placeholder="Your Email">
+
+            <label class="block text-lg mt-4">Message</label>
+            <textarea class="w-full p-2 mt-2 rounded-lg bg-white text-black border border-black" rows="4"
+                placeholder="Your Message"></textarea>
+
+            <button type="submit"
+                class="mt-4 p-3 w-full bg-white text-black font-bold rounded-lg border border-black hover:bg-black hover:text-white">
+                Send Message
+            </button>
+        </form>
+    </section>
+
+    <footer class="text-center p-6 bg-white text-black border-t-4 border-black mt-10">
+        <p>&copy; 2025. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
